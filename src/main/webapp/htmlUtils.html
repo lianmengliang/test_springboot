@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<a>&;&amp;leo&lt;<</a>
+</br>
+
+</br>
+<!--转义前 期望不变， 结果可能是： &;&leo<-->
+<a>&;&amp;leo&lt</a>
+</br>
+<!--转义后，期望变为转义前&;&amp;leo&lt; -->
+<a>&amp;;&amp;amp;leo&amp;lt;&lt;<</a>
+
+</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+</html>
