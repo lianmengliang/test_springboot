@@ -1,5 +1,8 @@
 package com.springboot.practiceDemo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @Author ： leo
  * @Date :2019/9/26 18:34
@@ -7,8 +10,10 @@ package com.springboot.practiceDemo;
 public class test_Github {
     public static void main(String[] args) {
         System.out.println("测试github");
-        for (int i = 0; i < 54; i++) {
-            System.out.println("github");
-        }
+        List list = new ArrayList();
+        list.add(1);
+        list.add("qweqweqw");
+        System.out.println(list);
     }
+
 }
