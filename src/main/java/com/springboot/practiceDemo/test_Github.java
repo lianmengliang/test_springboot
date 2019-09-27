@@ -13,6 +13,7 @@ public class test_Github {
         List list = new ArrayList();
         list.add(1);
         list.add("qweqweqw");
+        list.add(2132312.0);
         System.out.println(list);
     }
 
