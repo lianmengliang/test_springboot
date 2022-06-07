@@ -135,7 +135,7 @@
     <dependency>
       <groupId>org.jodd</groupId>
       <artifactId>jodd-http</artifactId>
-      <version>5.0.6</version>
+      <version>6.2.1</version>
     </dependency>
     <!-- logstash 对接 -->
     <dependency>
